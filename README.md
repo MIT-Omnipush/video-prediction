@@ -105,6 +105,5 @@ If you used the code from this repo, consider citing the following papers
   journal={arXiv preprint arXiv:1804.01523},
   year={2018}
 }
-
 ```
 
