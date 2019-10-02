@@ -1,0 +1,8 @@
+tensorflow-gpu>=1.9.0
+opencv-python
+scipy
+scikit-image
+h5py
+matplotlib
+tqdm
+git+git://github.com/alexlee-gk/lpips-tensorflow.git#egg=lpips-tf
