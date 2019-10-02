@@ -77,6 +77,6 @@ python train_svg_lp.py --dataset omnipush --model vgg --g_dim 128 --z_dim 64 --b
 #### SAVP
 
 ```
-python scripts/train.py --input_dir ../dataset/omnipush-tfreocrds --dataset omnipush --dataset_hparams sequence_length=12 --model savp --model_hparams_dict hparams/bair_action_free/ours_savp/model_hparams.json --output_dir ./logs/omnipush/ours_savp
+python scripts/train.py --input_dir ../dataset/omnipush-tfrecords --dataset omnipush --dataset_hparams sequence_length=12 --model savp --model_hparams_dict hparams/bair_action_free/ours_savp/model_hparams.json --output_dir ./logs/omnipush/ours_savp
 ```
 
