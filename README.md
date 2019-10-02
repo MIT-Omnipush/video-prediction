@@ -71,14 +71,12 @@ dataset
 #### SVG
 
 ```
-python train_svg_lp.py --dataset omnipush --model vgg --g_dim 128 --z_dim 64 --beta 0.0001 --n_past 2 --n_future 10 --n_eval 12 --channels 3 --data_root path/to/omnipush --log_dir ./logs/ --batch_size 32
+python train_svg_lp.py --dataset omnipush --model vgg --g_dim 128 --z_dim 64 --beta 0.0001 --n_past 2 --n_future 10 --n_eval 12 --channels 3 --data_root ../dataset/omnipush --log_dir ./logs/ --batch_size 32
 ```
 
 #### SAVP
 
-- Preprocess the dataset into tfrecords:
-
 ```
-python scripts/train.py --input_dir path/to/omnipush/with/tfreocrds --dataset omnipush --dataset_hparams sequence_length=12 --model savp --model_hparams_dict hparams/bair_action_free/ours_savp/model_hparams.json --output_dir ./logs/omnipush/ours_savp
+python scripts/train.py --input_dir ../dataset/omnipush-tfreocrds --dataset omnipush --dataset_hparams sequence_length=12 --model savp --model_hparams_dict hparams/bair_action_free/ours_savp/model_hparams.json --output_dir ./logs/omnipush/ours_savp
 ```
 
