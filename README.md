@@ -80,3 +80,31 @@ python train_svg_lp.py --dataset omnipush --model vgg --g_dim 128 --z_dim 64 --b
 python scripts/train.py --input_dir ../dataset/omnipush-tfrecords --dataset omnipush --dataset_hparams sequence_length=12 --model savp --model_hparams_dict hparams/bair_action_free/ours_savp/model_hparams.json --output_dir ./logs/omnipush/ours_savp
 ```
 
+## Citation
+
+If you used the code from this repo, consider citing the following papers
+
+```
+@article{bauza2018omnipush,
+  title={Omnipush: accurate, diverse, real-world dataset of pushing dynamics with RGBD images},
+  author={Bauza, Maria and Alet, Ferran and Lin, Yen-Chen and Lozano-Pérez, Tomás and Kaelbling, Leslie P. and Isola, Phillip and Rodriguez, Alberto},
+  journal={IROS},
+  year={2019}
+}
+
+@article{denton2018stochastic,
+  title={Stochastic video generation with a learned prior},
+  author={Denton, Emily and Fergus, Rob},
+  journal={ICML},
+  year={2018}
+}
+
+@article{lee2018savp,
+  title={Stochastic Adversarial Video Prediction},
+  author={Alex X. Lee and Richard Zhang and Frederik Ebert and Pieter Abbeel and Chelsea Finn and Sergey Levine},
+  journal={arXiv preprint arXiv:1804.01523},
+  year={2018}
+}
+
+```
+
