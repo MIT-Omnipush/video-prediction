@@ -23,8 +23,8 @@ Custom data loaders for Omnipush are provided in this implementation.
 - Clone this repo:
 
 ```
-git clone git@github.com:yenchenlin/omnipush-video-prediction.git
-cd omnipush-video-prediction
+git clone git@github.com:yenchenlin/video-prediction.git
+cd video-prediction
 ```
 
 - Install dependencies
@@ -86,8 +86,8 @@ If you used the code from this repo, consider citing the following papers
 
 ```
 @article{bauzaomnipush, 
-title={Omnipush: accurate, diverse, real-world dataset of pushing dynamics with RGB-D video}, 
-author={Bauza, Maria and Alet, Ferran and Lin, Yen-Chen and Lozano-P{\'e}rez, Tom{\'a}s and Kaelbling, Leslie P and Isola, Phillip and Rodriguez, Alberto} 
+  title={Omnipush: accurate, diverse, real-world dataset of pushing dynamics with RGB-D video}, 
+  author={Bauza, Maria and Alet, Ferran and Lin, Yen-Chen and Lozano-P{\'e}rez, Tom{\'a}s and Kaelbling, Leslie P and Isola, Phillip and Rodriguez, Alberto} 
 }
 
 @article{denton2018stochastic,
