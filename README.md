@@ -85,7 +85,10 @@ python scripts/train.py --input_dir ../dataset/omnipush-tfrecords --dataset omni
 If you used the code from this repo, consider citing the following papers
 
 ```
-@article{bauzaomnipush, title={Omnipush: accurate, diverse, real-world dataset of pushing dynamics with RGB-D video}, author={Bauza, Maria and Alet, Ferran and Lin, Yen-Chen and Lozano-P{\'e}rez, Tom{\'a}s and Kaelbling, Leslie P and Isola, Phillip and Rodriguez, Alberto} }
+@article{bauzaomnipush, 
+title={Omnipush: accurate, diverse, real-world dataset of pushing dynamics with RGB-D video}, 
+author={Bauza, Maria and Alet, Ferran and Lin, Yen-Chen and Lozano-P{\'e}rez, Tom{\'a}s and Kaelbling, Leslie P and Isola, Phillip and Rodriguez, Alberto} 
+}
 
 @article{denton2018stochastic,
   title={Stochastic video generation with a learned prior},
