@@ -48,7 +48,7 @@ SVG and SAVP have different dependencies, we list them separately:
 ### Download Omnipush
 
 ```
-bash ./dataset/download_dataset.sh 
+bash ./dataset/download_data.sh 
 ```
 
 To train SAVP, pre-process the dataset into tfrecords.
